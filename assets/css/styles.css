@@ -1,0 +1,58 @@
+.inner{
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 50px;
+  margin:25px;
+  width: 480px;
+  height: 35vh;
+  color:aliceblue;
+  text-align: left;
+  font-family: sans-serif;
+  font-size: 25px;
+  line-height: 2em;
+  border-radius: 2%;
+  overflow: hidden;
+  position:relative
+  }
+
+p~p {
+  padding-bottom: 20px;
+    }
+
+
+.inner:nth-child(3n){
+  background: linear-gradient(50deg, rgba(117,217,209,1) 44%, rgba(11,208,186,1) 67%);
+}
+
+.inner:nth-child(3n-2){
+  background: linear-gradient(50deg, rgba(255,184,152,1) 0%, rgba(254,143,150,1) 80%);
+}
+
+.inner:nth-child(3n-1){
+  background: linear-gradient(50deg, rgba(129,195,245,1) 0%, rgba(53,158,232,1) 79%);
+}
+
+
+.p-1::after {
+  content: url("../images/chart-bell-curve-cumulative.svg");
+  position:absolute;
+  left:80%;
+}
+
+.p-2::after {
+  content: url("../images/bookmark-outline.svg");
+  position:absolute;
+  left:80%;
+}
+
+.p-3::after {
+  content: url("../images/diamond-outline.svg");
+  position:absolute;
+  left:80%;
+}
+
+.round-inner1{
+  
+}
+
+  
